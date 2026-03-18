@@ -43,6 +43,7 @@ export default function Portfolio() {
     const loadTime = performance.now()
     console.log(`Sahifa ${loadTime.toFixed(2)} ms da yuklandi`)
   }, [])
+  
 
   // Intersection Observer for skills section to trigger animations
   useEffect(() => {
@@ -78,28 +79,36 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "O'zbek Veb-sayt Dizayni",
-      description: "Zamonaviy dizayn va responsiv tartibga ega professional biznes veb-sayti",
+      title: "Bog'ot IT Park sayti",
+      description: "Zamonaviy dizayn va responsiv tartibga ega professional IT Park veb-sayti",
       tech: ["HTML", "CSS", "JavaScript", "Responsiv Dizayn"],
-      image: "/website-screenshot.jpg",
-      github: "https://github.com/lexobro11",
-      demo: "https://v0-uzbek-website-design-brown.vercel.app/",
+      image: "/sayt 1.png",
+      github: "https://github.com/lexobro11/Bog-ot-IT-Park",
+      demo: "https://v0-uzbek-website-design-brown.vercel.app",
     },  
     {
       title: "Admin Paneli Qayta Dizayni",
-      description: "Yaxshilangan foydalanuvchi tajribasi va funksionallikka ega zamonaviy admin paneli",
-      tech: ["React", "TypeScript", "CSS", "Dashboard UI"],
-      image: "/placeholder.svg?height=200&width=300",
-      github: "https://github.com/lexobro11",
-      demo: "https://v0-yuqori-panel-redesign.vercel.app/",
+      description: "Yaxshilangan dizayn admin panelga ega zamonavi kitob do'kon uchun sayt",
+      tech: ["HTML", "JavaScript", "CSS", "Dashboard UI"],
+      image: "/image.png?height=200&width=300",
+      github: "https://github.com/lexobro11/Online-Kitob-Do-kon-Sayti",
+      demo: "https://online-kitob-dokon-sayt.vercel.app",
     },
     {
-      title: "Portfolio Veb-sayti",
+      title: "Expense Tracker sayti",
       description: "Veb-dasturlash ko'nikmalari va loyihalarini namoyish etuvchi shaxsiy portfolio",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Dark Mode"],
-      image: "/placeholder.svg?height=200&width=300",
-      github: "https://github.com/lexobro11",
-      demo: "https://github.com/lexobro11",
+      tech: ["HTML", "JavaScript", "CSS", "Dark Mode"],
+      image: "/sayt3.png?height=200&width=300",
+      github: "https://github.com/lexobro11/Expense-Tracker",
+      demo: "https://expense-tracker-beta-ten-90.vercel.app/",
+    },
+    {
+      title: "Expense Tracker sayti",
+      description: "Veb-dasturlash ko'nikmalari va loyihalarini namoyish etuvchi shaxsiy portfolio",
+      tech: ["HTML", "JavaScript", "CSS", "Dark Mode"],
+      image: "/sayt3.png?height=200&width=300",
+      github: "https://github.com/lexobro11/Expense-Tracker",
+      demo: "https://expense-tracker-beta-ten-90.vercel.app/",
     },
   ]
 
@@ -218,7 +227,7 @@ export default function Portfolio() {
             <div className="mb-8">
               <Image
                 src="/logo.png"
-                alt="G'iyos-Technoid"
+                alt="G'iyos-Techno"
                 width={150}
                 height={150}
                 className="mx-auto mb-6 drop-shadow-2xl hover:scale-105 transition-transform duration-300 rounded-full"
@@ -226,11 +235,11 @@ export default function Portfolio() {
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-slate-800 via-slate-600 to-slate-800 dark:from-white dark:via-slate-200 dark:to-white bg-clip-text text-transparent mb-4">
-              G'iyos-Technoid
+              G'iyosbek G'anibekov
             </h1>
 
             <p className="text-lg md:text-2xl lg:text-3xl text-transparent bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text font-semibold mb-8">
-              Professional Veb Dasturchi
+              Professional Veb Dasturchi va UI/UX Dizayner
             </p>
 
             <p className="text-base md:text-lg text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -397,7 +406,7 @@ export default function Portfolio() {
                 >
                   <div className="relative overflow-hidden">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "/sayt 1.png"}
                       alt={project.title}
                       width={400}
                       height={250}
