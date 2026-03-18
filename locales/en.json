@@ -1,0 +1,63 @@
+{
+  "header": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "G'iyos-Technoid",
+    "subtitle": "Professional Web Developer",
+    "description": "Experienced web developer proficient in HTML, CSS, JavaScript, TypeScript, and React/TSX technologies. Specializing in creating modern and responsive websites. Providing professional services from Khorezm region.",
+    "get_in_touch": "Get In Touch",
+    "view_github": "View GitHub"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Web Development Enthusiast",
+    "paragraph1": "As a professional web developer, I love working with modern technologies. I have extensive experience ranging from the basics of HTML, CSS, and JavaScript to advanced technologies like TypeScript and React.",
+    "paragraph2": "Located in Khorezm region, I create high-quality websites for local and international clients. In every project, I focus on improving user experience and creating modern, responsive designs.",
+    "frontend_dev": "Frontend Development",
+    "responsive_design": "Responsive Design",
+    "modern_js": "Modern JavaScript",
+    "typescript": "TypeScript",
+    "clean_code": "Clean Code",
+    "clean_code_desc": "Maintainable & Scalable",
+    "modern_design": "Modern Design",
+    "modern_design_desc": "User-Centered UI/UX",
+    "responsive": "Responsive",
+    "responsive_desc": "Mobile-First Approach",
+    "performance": "Performance",
+    "performance_desc": "Optimized & Fast"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "proficiency": "Proficiency"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "code": "Code",
+    "demo": "Demo"
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "I am ready to work on new projects and bring your ideas to life. Professional web development services from Khorezm region. Use the information below to get in touch.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "portfolio": "Portfolio",
+    "website1": "Website 1",
+    "website2": "Website 2",
+    "send_message": "Send Message"
+  },
+  "footer": {
+    "all_rights_reserved": "All rights reserved.",
+    "built_with": "Built with Next.js, TypeScript & Tailwind CSS | Khorezm, Uzbekistan"
+  },
+  "loading": {
+    "loading_portfolio": "Loading Portfolio..."
+  },
+  "chat_widget": {
+    "open_chat": "Open Chat"
+  }
+}

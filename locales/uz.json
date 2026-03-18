@@ -1,0 +1,63 @@
+{
+  "header": {
+    "about": "Men haqimda",
+    "skills": "Ko'nikmalar",
+    "projects": "Loyihalar",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "title": "G'iyos-Technoid",
+    "subtitle": "Professional Web Dasturchi",
+    "description": "HTML, CSS, JavaScript, TypeScript va React/TSX texnologiyalarida tajribali web dasturchi. Zamonaviy va responsive web saytlar yaratishga ixtisoslashganman. Xorazm viloyatidan professional xizmatlar.",
+    "get_in_touch": "Bog'lanish",
+    "view_github": "GitHub'ni ko'rish"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "subtitle": "Web Dasturlash Ishqibozi",
+    "paragraph1": "Men professional web dasturchi sifatida zamonaviy texnologiyalar bilan ishlashni yaxshi ko'raman. HTML, CSS, JavaScript asoslaridan boshlab, TypeScript va React kabi ilg'or texnologiyalargacha keng ko'lamda tajribaga egaman.",
+    "paragraph2": "Xorazm viloyatida joylashgan bo'lib, mahalliy va xalqaro mijozlar uchun yuqori sifatli web saytlar yarataman. Har bir loyihada foydalanuvchi tajribasini yaxshilash va zamonaviy, responsive dizaynlar yaratishga e'tibor beraman.",
+    "frontend_dev": "Frontend Dasturlash",
+    "responsive_design": "Responsive Dizayn",
+    "modern_js": "Zamonaviy JavaScript",
+    "typescript": "TypeScript",
+    "clean_code": "Toza Kod",
+    "clean_code_desc": "Saqlash oson & Kengaytiriladigan",
+    "modern_design": "Zamonaviy Dizayn",
+    "modern_design_desc": "Foydalanuvchiga yo'naltirilgan UI/UX",
+    "responsive": "Responsive",
+    "responsive_desc": "Mobil-birinchi yondashuv",
+    "performance": "Ishlash unumdorligi",
+    "performance_desc": "Optimallashtirilgan & Tez"
+  },
+  "skills": {
+    "title": "Texnik Ko'nikmalar",
+    "proficiency": "Mahorat"
+  },
+  "projects": {
+    "title": "Tanlangan Loyihalar",
+    "code": "Kod",
+    "demo": "Demo"
+  },
+  "contact": {
+    "title": "Keling, birga ishlaymiz",
+    "description": "Yangi loyihalar ustida ishlashga va sizning g'oyalaringizni hayotga tatbiq etishga tayyorman. Xorazm viloyatidan professional web development xizmatlari. Bog'lanish uchun quyidagi ma'lumotlardan foydalaning.",
+    "email": "Email",
+    "phone": "Telefon",
+    "location": "Manzil",
+    "portfolio": "Portfolio",
+    "website1": "Veb-sayt 1",
+    "website2": "Veb-sayt 2",
+    "send_message": "Xabar yuborish"
+  },
+  "footer": {
+    "all_rights_reserved": "Barcha huquqlar himoyalangan.",
+    "built_with": "Next.js, TypeScript & Tailwind CSS bilan qurilgan | Xorazm, O'zbekiston"
+  },
+  "loading": {
+    "loading_portfolio": "Portfolio yuklanmoqda..."
+  },
+  "chat_widget": {
+    "open_chat": "Chatni ochish"
+  }
+}
