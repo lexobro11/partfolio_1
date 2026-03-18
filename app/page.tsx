@@ -43,7 +43,7 @@ export default function Portfolio() {
     const loadTime = performance.now()
     console.log(`Sahifa ${loadTime.toFixed(2)} ms da yuklandi`)
   }, [])
-  
+
 
   // Intersection Observer for skills section to trigger animations
   useEffect(() => {
@@ -82,7 +82,7 @@ export default function Portfolio() {
       title: "Bog'ot IT Park sayti",
       description: "Zamonaviy dizayn va responsiv tartibga ega professional IT Park veb-sayti",
       tech: ["HTML", "CSS", "JavaScript", "Responsiv Dizayn"],
-      image: "/sayt 1.png",
+      image: "/Sayt1.png",
       github: "https://github.com/lexobro11/Bog-ot-IT-Park",
       demo: "https://v0-uzbek-website-design-brown.vercel.app",
     },  
@@ -101,15 +101,7 @@ export default function Portfolio() {
       image: "/sayt3.png?height=200&width=300",
       github: "https://github.com/lexobro11/Expense-Tracker",
       demo: "https://expense-tracker-beta-ten-90.vercel.app/",
-    },
-    {
-      title: "Expense Tracker sayti",
-      description: "Veb-dasturlash ko'nikmalari va loyihalarini namoyish etuvchi shaxsiy portfolio",
-      tech: ["HTML", "JavaScript", "CSS", "Dark Mode"],
-      image: "/sayt3.png?height=200&width=300",
-      github: "https://github.com/lexobro11/Expense-Tracker",
-      demo: "https://expense-tracker-beta-ten-90.vercel.app/",
-    },
+    }
   ]
 
   const scrollToSection = (sectionId: string) => {
